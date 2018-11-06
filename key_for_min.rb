@@ -4,8 +4,6 @@
 def key_for_min_value(name_hash)
   name = " "
 name_hash.collect do |name, number|
-      if name[index] == 1
       return name
-end
 end
 end
