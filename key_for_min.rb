@@ -3,8 +3,12 @@
 
 def key_for_min_value(name_hash)
   name = " "
-name_hash.reduce{ |name, number| name.last > number.last ? number : name }.first
+name_hash.each do |name, number|
+  if key_for_min_value == nil
+    key_for_min_value = number
       return name
+    else
+      if key_for_min_value > number
 end
 
 
