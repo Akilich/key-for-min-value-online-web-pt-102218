@@ -13,5 +13,3 @@ name_hash.collect do |name, number|
 end
 end
 end
-end
-end
