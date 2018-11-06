@@ -6,8 +6,6 @@ def key_for_min_value(name_hash)
 name_hash.collect do |name, number|
       if name == :adam
       return adam
-    elsif name == :blake 
-      return blake
     else
       return nil
 end
