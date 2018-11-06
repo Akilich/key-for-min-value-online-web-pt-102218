@@ -5,5 +5,8 @@ def key_for_min_value(name_hash)
   name = " "
 name_hash.collect do |name, number|
       return name
+      if name == :adam
+        return adam
+end
 end
 end
