@@ -9,8 +9,9 @@ name_hash.each do |name, number|
   if key_for_min_value == nil
     key_for_min_value = name
         return name
-  else name_hash = [ ]
-    return nil
+  else key_for_min_value > nil
+    key_for_min_value = name
+    return 
 end
 end
 end
