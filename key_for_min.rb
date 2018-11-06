@@ -6,4 +6,3 @@ name_hash.collect do |name, number|
       return name
 end
 end
-end
