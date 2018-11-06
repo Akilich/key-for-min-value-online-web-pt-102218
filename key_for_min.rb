@@ -5,11 +5,11 @@
 def key_for_min_value(name_hash)
   key_for_min_value = nil
   name = " "
-name_hash.each do |name, number|
+name_hash.each do |name, index|
   if key_for_min_value == nil
     key_for_min_value = name
         return name
-  else key_for_min_value > :number
+  else key_for_min_value > index
     key_for_min_value = name
     return name
 end
