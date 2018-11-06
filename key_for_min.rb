@@ -11,7 +11,7 @@ name_hash.each do |name, number|
         return name
   else key_for_min_value > nil
     key_for_min_value = name
-    return 
+    return name
 end
 end
 end
