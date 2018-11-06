@@ -13,3 +13,4 @@ name_hash.each do |name, number|
 end
 end
 end
+return key_for_min_value
