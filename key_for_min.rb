@@ -6,3 +6,4 @@ name_hash.each do |name, number|
     if number == :1
       return adam
 end
+end
