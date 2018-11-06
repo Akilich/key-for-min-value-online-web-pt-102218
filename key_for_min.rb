@@ -4,12 +4,6 @@
 def key_for_min_value(name_hash)
   name = " "
 name_hash.collect do |name, number|
-  if value[index] < value[index + 1]
-      lowest = value
-      index = index + 1 
-      key_for_min_value[value]
-
       return lowest
-end
 end
 end
