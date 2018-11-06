@@ -3,31 +3,18 @@
 
 
 def key_for_min_value(name_hash)
-  i = 1
+  i = 500
   key_for_min_value = nil
   name = " "
   if key_for_min_value.length > 0
-name_hash.each do |name, number|
-  
-    key_for_min_value = name
-  elsif number.to_i > name_hash[key_for_min_value].to_i
+    name_hash.each do |name, number|
+      if number < i
     key_for_min_value = name
 end
 end
+return key_for_min_value
+else
+  nil
 end
-
-def key_for_min_value(name_hash)
-   i = 10000
-  min_key = {}
-  if name_hash.length > 0
-    name_hash.each do |key, value|
-      if value < i
-        min_key = key
-        i = value
-      end
-    end
-    min_key
-  else
-    nil
-  end
-end 	end 
+end 
+end
