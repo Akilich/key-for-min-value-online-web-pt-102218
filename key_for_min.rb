@@ -7,3 +7,4 @@ name_hash.each do |name, number|
       return adam
 end
 end
+end
