@@ -3,8 +3,7 @@
 
 def key_for_min_value(name_hash)
 name_hash.collect do |name, number|
-    if :adam == 1
-      return adam
+      return name
 end
 end
 end
